@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=New+Amsterdam&family=Silkscreen:wght@400;700&family=Vidaloka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../blue-office-stationery-with-copy-space.jpg");
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(224, 219, 219);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    background-color: rgb(48, 47, 47);
+   
+}
+
+.sub1{
+    width: 24rem;
+    height: 4rem;
+    margin: 10px 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.sub1 input[type="text"]{
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: end;
+    padding-right: 2%;
+    font-size: 24px;
+    border: none;
+}
+.sub1 input[type="text"]:focus{
+    outline: none;
+
+}
+.sub2{
+    width: 24rem;
+    height: 24rem;
+    margin-bottom: 2%;
+}
+.sub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+button{
+    display: block;
+    width: 19%;
+    height: 92%;
+    border-radius: 50%;
+    font-size: 24px;
+    color: rgb(5, 44, 6);
+    background-color: rgb(163, 249, 235);
+    border: none;
+    font-family: "New Amsterdam", sans-serif;
+}
+.operator{
+    background-color:rgb(146, 164, 241);
+    color: rgb(2, 44, 2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.number{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.equal{
+    background-color: rgb(219, 253, 146);
+    font-size: 30px;
+}
